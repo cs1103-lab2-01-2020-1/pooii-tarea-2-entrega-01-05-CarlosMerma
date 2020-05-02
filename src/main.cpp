@@ -1,7 +1,7 @@
-//
-// Author: marvin on 4/27/20.
-//
 
+
+#include "lib.h"
+#include "ejercicios.h"
 
 int main() {
 
