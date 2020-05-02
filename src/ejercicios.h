@@ -8,6 +8,7 @@
 #include "CLASS/sistema.h"
 
 void ejercicios1();
+void ejercicio2();
 
 
 #endif //UNIDAD2_SEM03_EJERCICIOS_H

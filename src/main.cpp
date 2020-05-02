@@ -4,5 +4,6 @@
 
 int main() {
     ejercicios1();
+    ejercicio2();
     return 0;
 }

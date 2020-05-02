@@ -3,6 +3,8 @@
 //
 #include "funciones.h"
 #include "ejercicios.h"
+#include "CLASS/sistema.h"
+#include "FIFO/fifo.h"
 
 
 void ejercicios1() {
@@ -14,6 +16,8 @@ void ejercicios1() {
     Sistema *vector2[5];
     vector2[0]=new Usuario("Pedido", "Ica", "Carlos",123,"Si");
     vector2[0]->traqueo();
+}
+void ejercicio2() {
 
 
 }
