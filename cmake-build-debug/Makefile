@@ -110,17 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named unidad2_sem03
+# Target rules for targets named pooii-tarea-2-entrega-01-05-CarlosMerma
 
 # Build rule for target.
-unidad2_sem03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 unidad2_sem03
-.PHONY : unidad2_sem03
+pooii-tarea-2-entrega-01-05-CarlosMerma: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pooii-tarea-2-entrega-01-05-CarlosMerma
+.PHONY : pooii-tarea-2-entrega-01-05-CarlosMerma
 
 # fast build rule for target.
-unidad2_sem03/fast:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/build
-.PHONY : unidad2_sem03/fast
+pooii-tarea-2-entrega-01-05-CarlosMerma/fast:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/build
+.PHONY : pooii-tarea-2-entrega-01-05-CarlosMerma/fast
+
+src/ejercicios.obj: src/ejercicios.cpp.obj
+
+.PHONY : src/ejercicios.obj
+
+# target to build an object file
+src/ejercicios.cpp.obj:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/ejercicios.cpp.obj
+.PHONY : src/ejercicios.cpp.obj
+
+src/ejercicios.i: src/ejercicios.cpp.i
+
+.PHONY : src/ejercicios.i
+
+# target to preprocess a source file
+src/ejercicios.cpp.i:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/ejercicios.cpp.i
+.PHONY : src/ejercicios.cpp.i
+
+src/ejercicios.s: src/ejercicios.cpp.s
+
+.PHONY : src/ejercicios.s
+
+# target to generate assembly for a file
+src/ejercicios.cpp.s:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/ejercicios.cpp.s
+.PHONY : src/ejercicios.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -128,7 +155,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/src/main.cpp.obj
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -137,7 +164,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -146,7 +173,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -155,9 +182,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... unidad2_sem03
+	@echo ... pooii-tarea-2-entrega-01-05-CarlosMerma
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... src/ejercicios.obj
+	@echo ... src/ejercicios.i
+	@echo ... src/ejercicios.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

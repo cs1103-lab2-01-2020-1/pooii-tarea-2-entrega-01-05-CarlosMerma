@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-C
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/unidad2_sem03.dir/all
+all: CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/all
 
 .PHONY : all
 
@@ -62,36 +62,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/unidad2_sem03.dir/clean
+clean: CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/unidad2_sem03.dir
+# Target rules for target CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir
 
 # All Build rule for target.
-CMakeFiles/unidad2_sem03.dir/all:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/depend
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-CarlosMerma\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target unidad2_sem03"
-.PHONY : CMakeFiles/unidad2_sem03.dir/all
+CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/all:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/depend
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-CarlosMerma\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target pooii-tarea-2-entrega-01-05-CarlosMerma"
+.PHONY : CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/unidad2_sem03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-CarlosMerma\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/unidad2_sem03.dir/all
+CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-CarlosMerma\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tonym\Documents\GitHub\pooii-tarea-2-entrega-01-05-CarlosMerma\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/unidad2_sem03.dir/rule
+.PHONY : CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/rule
 
 # Convenience name for target.
-unidad2_sem03: CMakeFiles/unidad2_sem03.dir/rule
+pooii-tarea-2-entrega-01-05-CarlosMerma: CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/rule
 
-.PHONY : unidad2_sem03
+.PHONY : pooii-tarea-2-entrega-01-05-CarlosMerma
 
 # clean rule for target.
-CMakeFiles/unidad2_sem03.dir/clean:
-	$(MAKE) -f CMakeFiles\unidad2_sem03.dir\build.make CMakeFiles/unidad2_sem03.dir/clean
-.PHONY : CMakeFiles/unidad2_sem03.dir/clean
+CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/clean:
+	$(MAKE) -f CMakeFiles\pooii-tarea-2-entrega-01-05-CarlosMerma.dir\build.make CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/clean
+.PHONY : CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

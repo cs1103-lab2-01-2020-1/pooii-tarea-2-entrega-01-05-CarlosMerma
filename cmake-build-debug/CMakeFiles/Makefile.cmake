@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/unidad2_sem03.dir/DependInfo.cmake"
+  "CMakeFiles/pooii-tarea-2-entrega-01-05-CarlosMerma.dir/DependInfo.cmake"
   )

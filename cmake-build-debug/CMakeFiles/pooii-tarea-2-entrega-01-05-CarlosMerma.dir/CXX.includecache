@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/CLASS/sistema.h
+../lib.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/lib.h
+
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/ejercicios.cpp
+funciones.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/funciones.h
+ejercicios.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/ejercicios.h
+
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/ejercicios.h
+lib.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/lib.h
+CLASS/sistema.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/CLASS/sistema.h
+
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/funciones.h
+lib.h
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/lib.h
+
+C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/src/lib.h
+iostream
+-
+vector
+-
+

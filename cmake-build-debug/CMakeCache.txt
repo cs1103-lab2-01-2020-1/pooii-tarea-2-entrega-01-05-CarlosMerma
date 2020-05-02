@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=unidad2_sem03
+CMAKE_PROJECT_NAME:STATIC=pooii-tarea-2-entrega-01-05-CarlosMerma
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ranlib.exe
@@ -252,6 +252,12 @@ Project_BINARY_DIR:STATIC=C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma
+
+//Value Computed by CMake
+pooii-tarea-2-entrega-01-05-CarlosMerma_BINARY_DIR:STATIC=C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/cmake-build-debug
+
+//Value Computed by CMake
+pooii-tarea-2-entrega-01-05-CarlosMerma_SOURCE_DIR:STATIC=C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma
 
 //Value Computed by CMake
 unidad2_sem03_BINARY_DIR:STATIC=C:/Users/tonym/Documents/GitHub/pooii-tarea-2-entrega-01-05-CarlosMerma/cmake-build-debug

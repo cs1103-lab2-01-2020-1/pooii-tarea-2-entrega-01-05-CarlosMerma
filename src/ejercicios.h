@@ -4,6 +4,9 @@
 
 #ifndef UNIDAD2_SEM03_EJERCICIOS_H
 #define UNIDAD2_SEM03_EJERCICIOS_H
-void ejercicios();
+#include "lib.h"
+#include "CLASS/sistema.h"
+
+void ejercicios1();
 
 #endif //UNIDAD2_SEM03_EJERCICIOS_H
